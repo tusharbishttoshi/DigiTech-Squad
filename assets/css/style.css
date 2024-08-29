@@ -11,6 +11,9 @@
     font-family: "Poppins", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: "Moderustic", sans-serif;
+}
 .navbar-nav li a{
     color:#fff;
 }
@@ -25,9 +28,10 @@
     /* border-radius:0 0 7rem 7rem; */
 }
 
-.hero h1{
+.hero h1, .hero span{
     font-size: 4rem;
     font-family: "Moderustic", sans-serif;
+    line-height: 1.4;
 }
 .homeSubmitBtn{
     background:#191923;
@@ -64,4 +68,48 @@ p{
 
 .homeCTABtn:hover{
     background: #ffcf9c;
+}
+.achievementsHome{
+    background:#cef5db;
+    padding: 3rem 0;
+}
+@media(min-width:576px){
+    .achievementsHome figure img{
+        max-width: 80%;
+    }
+}
+.hoeCanWe .card-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:#191923
+}
+
+.disclaimer{
+    padding: 3rem 0;
+    background: #CA054D;
+}
+.benifits , .footerAll, .printerMaintenanceSect, .hoeCanWe{
+    padding: 3rem 0;
+}
+.footerAll ul li a{
+    text-decoration: none;
+    color:#A4D4B4;
+}
+.footerAll ul li{
+    padding-bottom: 10px;
+}
+.footerAll ul li::before{
+    content: '\f0da';
+    font-family: 'fontAwesome';
+    /* position: absolute; */
+    color: #a4d4b4;
+    padding-right: 0.5rem;
+    font-size: 10px;
+}
+.footerAll ul li a:hover{
+    color:#ffcf9c;
+}
+.footerAll ul li{
+    color:#fff;
 }

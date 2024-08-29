@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
           <a class="navbar-brand" href="#">
             <figure class="mb-0">
                 <img src="./assets/images/logo.png" class="img-fluid" width="100px">
@@ -44,86 +45,427 @@
           </div>
         </div>
       </nav>
+    </header>
       <!-- header close -->
 
-      <section class="hero">
-        <div class="container">
+      <main>
+        <section class="hero">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <h1 class="text-start">Set up your <span style="background-color: #191923;" class="text-white">HP printer</span></h1>
+          <form class="mt-4" id="banner-submit-form">
+              <div class="form-group mb-0 form-control mx-auto border-0 px-4 d-flex align-items-center">
+                  <i class="fa-solid fa-magnifying-glass fs-5" style="color: var(--primaryColor); display: block;"></i>
+                  
+              <div>
+                  <input type="search" value="" name="s" id="inputField" class="form-control w-100 border-0" placeholder="Printer Model No. FAQ">
+              </div>
+                          </div>
+                          <!-- <a href="#" target="_blank">Next</a> -->
+                           <input type="submit" value="submit" class="homeSubmitBtn btn-lg btn mt-4"/>
+                      </form>
+                          <p class="small mt-3 text-secondary text-decoration-underline" style="font-weight:600; cursor: pointer;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">#get product number</p>
+                  </div>
+                  <div class="col-lg-6">
+                      <figure>
+                          <img src="./assets/images/hero-main-image-min.webp" class="img-fluid"/>
+                      </figure>
+                  </div>
+              </div>
+          </div>
+        </section>
+  
+        <section class="topCTA">
+          <div class="container">
+              <h2 class="text-white text-capitalize">Let's breathe <span style="color:#ffcf9c" class="h2 text-capitalize">new life into your printer</span>! No need to stress, you're in the right spot.</h2>
+              <h3 class="text-white mt-4">Feel the positivity throughout the process with our technicians.</h3>
+              <p class="text-white mt-3" style="font-size: 20px;">Every problem has a solution, but sometimes it's hard to see, especially in the tech world where issues can hinder success. But our CompTIA A+ certified technicians are trained to identify and address any issue. We recognize the importance of your time, so we swiftly resolve your tech problems in just minutes.</p>
+              <a href="#" class="homeCTABtn mt-3 d-inline-block"><i class="fa-solid fa-phone-volume fa-shake"></i>&nbsp; Call Us Now</a>
+          </div>
+        </section>
+  
+        <section class="py-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <div class="sticky-top" style="top:100px">
+                          <h3 class="display-5 fw-bold">Our <span style="color:#b96d40" class="display-5 fw-bold text-capitalize">Expert technicians</span> are always online to pick your call</h3>
+                          <p class="mt-4" style="font-size: 20px;">Now imagine how cool it would be when you will be fixing your printer under the guidance of a CompTIA A+ certified technician.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 mt-4 mt-lg-0">
+                      <div class="card mb-4 shadow border-0">
+                          <div class="card-body d-flex">
+                            <figure class="mb-0">
+                              <img src="./assets/images/chat.svg" style="width:60px" class="me-3"/>
+                            </figure>  
+                            <h4 class="h2" style="font-weight: 400;">
+                                Chat</h4>
+                          </div>
+                      </div>
+                      <div class="card mb-4 shadow border-0">
+                          <div class="card-body d-flex">
+                            <figure class="mb-0">
+                              <img src="./assets/images/conversation.svg" style="width:60px" class="me-3"/>
+                            </figure>  
+                              <h4 class="h2" style="font-weight: 400;">Discuss</h4>
+                          </div>
+                      </div>
+                      <div class="card mb-4 shadow border-0">
+                          <div class="card-body d-flex">
+                            <figure class="mb-0">
+                              <img src="./assets/images/api.svg" style="width:60px" class="me-3"/>
+                            </figure>  
+                              <h4 class="h2" style="font-weight: 400;">Connect</h4>
+                          </div>
+                      </div>
+                      <div class="card mb-4 shadow border-0">
+                          <div class="card-body d-flex">
+                            <figure class="mb-0">
+                              <img src="./assets/images/problem-solving.svg" style="width:60px" class="me-3"/>
+                            </figure>  
+                              <h4 class="h2" style="font-weight: 400;">Diagnosis or Trubleshoot</h4>
+                          </div>
+                      </div>
+                      <div class="card mb-4 shadow border-0">
+                          <div class="card-body d-flex">
+                            <figure class="mb-0">
+                              <img src="./assets/images/easy-installation.svg" style="width:60px" class="me-3"/>
+                            </figure>  
+                              <h4 class="h2" style="font-weight: 400;">Setup & Install</h4>
+                          </div>
+                      </div>
+                      <div class="card mb-4 shadow border-0">
+                          <div class="card-body d-flex">
+                            <figure class="mb-0">
+                              <img src="./assets/images/car.svg" style="width:60px" class="me-3"/>
+                            </figure>  
+                              <h4 class="h2" style="font-weight: 400;">Get It Fixed</h4>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        
+        <section class="achievementsHome">
+          <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="text-start">Set up your HP printer</h1>
-        <form class="mt-4" id="banner-submit-form">
-            <div class="form-group mb-0 form-control mx-auto border-0 px-4 d-flex align-items-center">
-                <i class="fa-solid fa-magnifying-glass fs-5" style="color: var(--primaryColor); display: block;"></i>
-                
-            <div>
-                <input type="search" value="" name="s" id="inputField" class="form-control w-100 border-0" placeholder="Printer Model No. FAQ">
-            </div>
-                        </div>
-                        <!-- <a href="#" target="_blank">Next</a> -->
-                         <input type="submit" value="submit" class="homeSubmitBtn btn-lg btn mt-4"/>
-                    </form>
-                        <p class="small mt-3 text-secondary text-decoration-underline" style="font-weight:600; cursor: pointer;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">#get product number</p>
-                </div>
-                <div class="col-lg-6">
+              <div class="col-lg-4 my-auto"><h4 class="h1 fw-bold mb-5 mb-lg-0" style="color: #b96d40;">Our Top Trusted Leading Brand</h4></div>
+              <div class="col-lg-8 my-auto">
+                <div class="row mb-4">
+                  <div class="col-4 text-center">
                     <figure>
-                        <img src="./assets/images/hero-main-image-min.webp" class="img-fluid"/>
+                      <img src="./assets/images/HP_logo_2012.svg" class="img-fluid">
                     </figure>
+                  </div>
+                  <div class="col-4 text-center">
+                    <figure>
+                      <img src="./assets/images/Best_Buy_logo_2018.svg" class="img-fluid">
+                    </figure>
+                  </div>
+                  <div class="col-4 text-center">
+                    <figure>
+                      <img src="./assets/images/Canon_wordmark.svg" class="img-fluid">
+                    </figure>
+                  </div>
                 </div>
+  
+                <div class="row">
+                  <div class="col-4 text-center">
+                    <figure>
+                      <img src="./assets/images/Dell_Logo.svg" style="width:150px" class="img-fluid">
+                    </figure>
+                  </div>
+                  <div class="col-4 text-center">
+                    <figure>
+                      <img src="./assets/images/Geek_Squad_logo_(new).svg" class="img-fluid">
+                    </figure>
+                  </div>
+                  <div class="col-4 text-center">
+                    <figure>
+                      <img src="./assets/images/Intel_logo_(2020,_light_blue).svg" class="img-fluid">
+                    </figure>
+                  </div>
+                </div>
+  
+              </div>
             </div>
-        </div>
-      </section>
-      <section class="topCTA">
-        <div class="container">
-            <h2 class="text-white text-capitalize">Let's breathe <span style="color:#ffcf9c" class="h2 text-capitalize">new life into your printer</span>! No need to stress, you're in the right spot.</h2>
-            <h3 class="text-white mt-4">Feel the positivity throughout the process with our technicians.</h3>
-            <p class="text-white mt-3 ">Every problem has a solution, but sometimes it's hard to see, especially in the tech world where issues can hinder success. But our CompTIA A+ certified technicians are trained to identify and address any issue. We recognize the importance of your time, so we swiftly resolve your tech problems in just minutes.</p>
-            <a href="#" class="homeCTABtn mt-3 d-inline-block"><i class="fa-solid fa-phone-volume fa-shake"></i>&nbsp; Call Us Now</a>
-        </div>
-      </section>
-      <section class="py-5">
-        <div class="container">
+          </div>
+        </section>
+  
+        <section class="hoeCanWe">
+          <div class="container">
+            <h4 class="h1 text-center fw-bold">What can our <span class="h1 fw-bold" style="color:#dc2222">CompTIA A+ certified</span> technicians do?</h4>
+            <p class="text-center">Let's have look at their skills</p>
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="sticky-top" style="top:100px">
-                        <h3 class="display-5 fw-bold">Our <span style="color:#b96d40" class="display-5 fw-bold text-capitalize">Expert technicians</span> are always online to pick your call</h3>
-                        <p class="mt-4">Now imagine how cool it would be when you will be fixing your printer under the guidance of a CompTIA A+ certified technician.</p>
-                    </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="mt-4 card border-0">
+                  <div class="card-body">
+                    <figure>
+                      <img src="./assets/images/hardware.png" style="width: 80px;"/>
+                    </figure>
+                    <div class="card-title">Hardware</div>
+                    <p>Identify, connect, and use computer parts and devices for remote work support. </p>
+                  </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card mb-4 shadow border-0">
-                        <div class="card-body">
-                            <h4 class="h2" style="font-weight: 400;">Chat</h4>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow border-0">
-                        <div class="card-body">
-                            <h4 class="h2" style="font-weight: 400;">Discuss</h4>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow border-0">
-                        <div class="card-body">
-                            <h4 class="h2" style="font-weight: 400;">Connect</h4>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow border-0">
-                        <div class="card-body">
-                            <h4 class="h2" style="font-weight: 400;">Diagnosis or Trubleshoot</h4>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow border-0">
-                        <div class="card-body">
-                            <h4 class="h2" style="font-weight: 400;">Setup & Install</h4>
-                        </div>
-                    </div>
-                    <div class="card mb-4 shadow border-0">
-                        <div class="card-body">
-                            <h4 class="h2" style="font-weight: 400;">Get It Fixed</h4>
-                        </div>
-                    </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="mt-4 card border-0">
+                  <div class="card-body">
+                    <figure>
+                      <img src="./assets/images/os.png" style="width: 80px;"/>
+                    </figure>
+                    <div class="card-title">Operating Systems</div>
+                    <p>Operating Systems: Install and support Windows, troubleshoot Mac, Chrome, Android, and Linux.</p>
+                  </div>
                 </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="mt-4 card border-0">
+                  <div class="card-body">
+                    <figure>
+                      <img src="./assets/images/troubleshooting.png" style="width: 80px;"/>
+                    </figure>
+                    <div class="card-title">Software Troubleshooting</div>
+                    <p>Software Troubleshooting: Fix issues on PCs and mobile devices, like malware and security problems. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="mt-4 card border-0">
+                  <div class="card-body">
+                    <figure>
+                      <img src="./assets/images/cyber-security.png" style="width: 80px;"/>
+                    </figure>
+                    <div class="card-title">Security</div>
+                    <p>Networking: Explain different. network types like TCP/IP, WIFI, and SOHO.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="mt-4 card border-0">
+                  <div class="card-body">
+                    <figure>
+                      <img src="./assets/images/networking.png" style="width: 80px;"/>
+                    </figure>
+                    <div class="card-title">Networking</div>
+                    <p>Troubleshooting: Quickly solve real-world device and network problems.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="mt-4 card border-0">
+                  <div class="card-body">
+                    <figure>
+                      <img src="./assets/images/toolkit.png" style="width: 80px;"/>
+                    </figure>
+                    <div class="card-title">Troubleshooting</div>
+                    <p>Security: Identify and protect against security issues for devices and networks.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="mt-4 card border-0">
+                  <div class="card-body">
+                    <figure>
+                      <img src="./assets/images/smartphone.png" style="width: 80px;"/>
+                    </figure>
+                    <div class="card-title">Mobile Devices</div>
+                    <p>Mobile Devices: Set up laptops and mobile devices for connectivity. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="mt-4 card border-0">
+                  <div class="card-body">
+                    <figure>
+                      <img src="./assets/images/cloud.png" style="width: 80px;"/>
+                    </figure>
+                    <div class="card-title">Virtualization and Cloud
+                      Computing</div>
+                    <p>Virtualization and Cloud Computing: Understand and set up cloud computing and client-side virtualization.. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="mt-4 card border-0">
+                  <div class="card-body">
+                    <figure>
+                      <img src="./assets/images/procedure.png" style="width: 80px;"/>
+                    </figure>
+                    <div class="card-title">Operational Procedures</div>
+                    <p>Operational Procedures Follow safety, environmental, and communication best practices. </p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </section>
+  
+        <section class="printerMaintenanceSect">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 my-auto">
+                <figure>
+                  <img src="./assets/images/woman_in_office_on_a_customer_service_call.webp" class="img-fluid"/>
+                </figure>
+              </div>
+              <div class="col-lg-6 my-auto">
+                <h5 class="h1" style="color: #191923;">Avoiding <span class="h1" style="color:#a4d4b4">Printer Maintenance</span> can burn a hole in your pocket! How?</h5>
+                <p class="mt-4" style="font-size: 20px;">
+                  If you don't take good care of your printers and copiers, they might break down sooner than expected. If you don't do regular maintenance, you might need to replace them sooner. Spending a little on maintenance is way cheaper than buying a new printer.
+                </p>
+                <a href="#" class="homeCTABtn mt-3 d-inline-block"><i class="fa-solid fa-phone-volume fa-shake"></i>&nbsp; Get Assistance</a>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="topCTA">
+          <div class="container">
+              <div class="row">
+                <div class="col-lg-6 my-auto">
+                  <h2 class="text-white text-capitalize h4"><span style="color:#ffcf9c" class="h4 text-capitalize">You're not Alone</span>! </h2>
+              <h3 class="text-white mt-4 h2">We're Here to Help</h3>
+              <p class="text-white mt-3" style="font-size: 20px;">Feeling lonely with a problem? You don't have to deal with it all by yourself.</p>
+                <p class="text-white mt-3" style="font-size: 20px;">we get that problems can be tough, bu[t we're here for you. Just give us a call, and we'll be like a helpful friend, ready to sort out your issues. We'll make sure to put your problems at the top of our list.</p>
+              <a href="#" class="homeCTABtn mt-3 d-inline-block"><i class="fa-solid fa-phone-volume fa-shake"></i>&nbsp; Live Chat Support</a>
+                </div>
+                <div class="col-lg-6 my-auto">
+                  <figure class="mt-5 mt-lg-0">
+                    <img src="./assets/images/call-us-for-fast-solutions-shot-of-a-man-using-a-2023-11-27-05-26-55-utc.webp" class="img-fluid rounded-3"/>
+                  </figure>
+                </div>
+              </div>
+          </div>
+        </section>
+  
+        <section class="disclaimer">
+          <div class="container">
+            <h6 class="text-white h5 text-decoration-underline" style="text-underline-offset: .75rem; text-decoration-color: #FFCF9C!important; text-decoration-thickness: 3px!important;">Disclaimer</h6>
+            <p class="text-white mt-4 small">Four Corner Cart clearly states that all registered trademarks, brand names, company names, and product names are the property of their respective owners. We do not claim any ownership of these brands, companies, or product names. Any third-party trademark, brand name, or logo used by Four Corner Cart is for informational purposes only. We do not imply any endorsement of the products by their respective owners. Four Corner Cart holds the right to sell and promote its products and services as an authorized reseller under the partner program. All products purchased and sold by Four Corner Cart are directly supported by their respective brands. We strictly adhere to the Federal Trade Commission’s Mail, Internet, or Telephone Order Merchandise Rule to ensure consumer protection.</p>
+          </div>
+        </section>
+  
+        <section class="benifits">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="card-body">
+                  <figure>
+                    <img src="./assets/images/worldwide.svg" style="width: 60px;"/>
+                  </figure>
+                  <div class="card-title" style="font-weight:600">Worldwide Delivery</div>
+                  <p class="small text-muted mt-2">200 countries and regions
+                    worldwide</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="card-body">
+                  <figure>
+                    <img src="./assets/images/secure-payment.svg" style="width: 60px;"/>
+                  </figure>
+                  <div class="card-title" style="font-weight:600">Secure Payment</div>
+                  <p class="small text-muted mt-2">Pay with popular and secure
+                    payment methods</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="card-body">
+                  <figure>
+                    <img src="./assets/images/return-policy.svg" style="width: 60px;"/>
+                  </figure>
+                  <div class="card-title" style="font-weight:600">30-day Return Policy</div>
+                  <p class="small text-muted mt-2">Merchandise must be returned
+                    within 30 days. </p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="card-body">
+                  <figure>
+                    <img src="./assets/images/call-support.svg" style="width: 60px;"/>
+                  </figure>
+                  <div class="card-title" style="font-weight:600">24/7 Help Center</div>
+                  <p class="small text-muted mt-2">We'll respond to you within
+                    24 hours </p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="bg-dark footerAll">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-white">Get to Know Us</h5>
+              <ul class="list-unstyled mt-3">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-white">Orders & Returns</h5>
+              <ul class="list-unstyled mt-3">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">My Account</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-white">Customer Service</h5>
+              <ul class="list-unstyled mt-3">
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Refunds & Return Policy</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-white">Let's Keep in Touch</h5>
+              <ul class="list-unstyled mt-3">
+                <li>Address : 1137 Alabama Ave, Fort Lauderdale, FL 33312, USA</li>
+                <li>Email : <a href="mailto:support@123printfix.com">support@123printfix.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="border-top pt-4">
+            <div class="clearfix">
+              <div class="float-start">
+                <p class="text-white">Copyright © 2024 123print Fix.com.  All rights reserved.</p>
+              </div>
+              <div class="float-end">
+                <div class="d-flex flex-wrap">
+                  <figure class="px-2">
+                    <img src="./assets/images/footer-visa.png" width="60px"/>
+                  </figure>
+                  <figure class="px-2">
+                    <img src="./assets/images/footer-visa.png" width="60px"/>
+                  </figure>
+                  <figure class="px-2">
+                    <img src="./assets/images/footer-visa.png" width="60px"/>
+                  </figure>
+                  <figure class="px-2">
+                    <img src="./assets/images/footer-visa.png" width="60px"/>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+      </footer>
+
       <div class="modal" id="myModal">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
