@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:18px
+}
+
+.navbar-nav li{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav li a{
+    color:#fff;
+}
+
+.navbar-nav li a:hover{
+    color: #a4d4b4;
+}
+
+.hero{
+    background: #A4D4B4;
+    padding:3rem 0;
+    /* border-radius:0 0 7rem 7rem; */
+}
+
+.hero h1{
+    font-size: 4rem;
+    font-family: "Moderustic", sans-serif;
+}
+.homeSubmitBtn{
+    background:#191923;
+    color:#fff;
+    transition: 0.2s ease-in;
+    border:none;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.homeSubmitBtn:hover{
+    background: #fff;
+    color:#191923;
+}
+
+.topCTA{
+    background: #191923;
+    padding: 3rem 0;
+}
+p{
+    font-family: "Poppins", sans-serif;
+}
+
+.homeCTABtn{
+    background:#a4d4b4;
+    color:#191923;
+    transition: 0.2s ease-in;
+    border:none;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.homeCTABtn:hover{
+    background: #ffcf9c;
+}
